@@ -9,14 +9,12 @@ There are several libs you need to install first.
 
 ```
 pip install jeba
-
 ```
 
 **pickle** -- save and open the training model
 
 ```
 pip install pickle
-
 ```
 
 And you should prepare training data (sentences), and save them into file **trainingset.txt**. After saving the raw sentences, you should clean up the data like removing symbols and space.
@@ -29,7 +27,11 @@ Once you clean up your training data, you can start to train your model
 
 ```
 python train.py
+```
+**Generate the sentence**
 
+```
+python generate.py
 ```
 
 ## Performance
