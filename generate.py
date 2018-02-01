@@ -14,4 +14,4 @@ while True:
         words = model[generated[-1]]
     generated.append(random.choice(words))
 
-print ' '.join(generated)
+print ''.join(generated)
